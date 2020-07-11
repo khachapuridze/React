@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  list-style: none;
+}
+
+.register-conainer {
+  width: 50%;
+  margin: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form button {
+  max-width: 30%;
+  margin: auto;
+}
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+.invalid-feedback-mine {
+  color: red !important;
+}
+input {
+  outline: none !important;
+}
+.card-body {
+  padding: 0px !important;
+}
+.card {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.card button {
+  margin-bottom: 10px;
+}
